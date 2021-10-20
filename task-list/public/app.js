@@ -41,8 +41,8 @@ function deletetask(e)
 {
     if(confirm('are you sure?'))
     {
-    e.target.parentElement.parentElement.remove();
-    removeTaskFromLocalStorage(e.target.parentElement.parentElement);
+        e.target.parentElement.parentElement.remove();
+        removeTaskFromLocalStorage(e.target.parentElement.parentElement);
     }
 }
 
